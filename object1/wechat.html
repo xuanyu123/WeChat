@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WeChat</title>
+    <link rel="stylesheet" href="css/wechat.css">
+    <script language="JavaScript" src="js/time.js"></script>
+</head>
+<body onload="startClock()" onunload="stopClock()">
+    <div class="top">
+        <img class="left" src="images/信号.svg">
+        <img class="left" src="images/信号.svg">
+        <img class="left" height="40px" width="40px" src="images/wifi.svg">
+        <img class="right" height="40px" width="40px" src="images/电池.svg">
+        <div id="show" ></div>
+    </div>
+    <div class="wrap">
+        <div class="content">
+            <iframe name="myframe" src="chat.html"></iframe>
+        </div>
+        <div class="menu">
+            <div>
+                <a href="chat.html" target="myframe">
+                <img alt="pic" height="200" width="" src="images/微信.svg">
+                <p>微信</p>
+                </a>
+            </div>
+            <div>
+                <a href="address.html" target="myframe">
+                <img alt="pic" height="200" width="" src="images/通讯录.svg">
+                <p>通讯录</p>
+                </a>
+            </div>
+            <div>
+                <a href="find.html" target="myframe">
+                <img alt="pic" height="200" width="" src="images/发现.svg">
+                <p>发现</p>
+                </a>
+            </div>
+            <div>
+                <a href="me.html" target="myframe">
+                <img alt="pic" height="200" width="" src="images/我.svg">
+                <p>我</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
