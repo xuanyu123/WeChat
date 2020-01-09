@@ -30,14 +30,6 @@ body{
 .wrap>.content{
     height: 488px;
 }
-.wrap>.communication{
-    flex: 1;
-}
-.wrap>.communication>p{
-    background: rgb(237,237,237);
-    padding: 10px 10px 10px 23px;
-    font-size: 1.5em;
-}
 .wrap>.content>ul>li{
     list-style: none;
     height: 120px;
@@ -45,55 +37,61 @@ body{
     display: flex;
     align-items: center;
 }
-.wrap>.content>ul>li>.box1{
+.wrap>.content>ul>li>.box{
     border: 1px solid;
     border-radius: 20px;
-    background: rgb(250,158,59);
     width: 100px;
     height: 100px;
     margin-left: 20px;
 }
-.wrap>.content>ul>li>.box1>.img{
+.wrap>.content>ul>li>div>.common_img{
     width: 120px;
     padding: 10px;
 }
-.wrap>.content>ul>li>.box1>.img>img{
+.wrap>.content>ul>li>div>.common_img>img{
     width: 80px;
     height: 80px;
+}
+.wrap>.content>ul>li>.box1{
+    background: rgb(250,158,59);
 }
 .wrap>.content>ul>li>.box2{
-    border: 1px solid;
-    border-radius: 20px;
     background: rgb(7,193,96);
-    width: 100px;
-    height: 100px;
-    margin-left: 20px;
 }
-.wrap>.content>ul>li>.box2>.img{
-    width: 120px;
-    padding: 10px;
-}
-.wrap>.content>ul>li>.box2>.img>img{
-    width: 80px;
-    height: 80px;
-}
+
 .wrap>.content>ul>li>.box3{
-    border: 1px solid;
-    border-radius: 20px;
     background: #2781D7;
-    width: 100px;
-    height: 100px;
-    margin-left: 20px;
-}
-.wrap>.content>ul>li>.box3>.img{
-    width: 120px;
-    padding: 10px;
-}
-.wrap>.content>ul>li>.box3>.img>img{
-    width: 80px;
-    height: 80px;
 }
 .wrap>.content>ul>li>.txt{
+    position: relative;
+    padding: 20px;
+    flex: 1;
+    font-size: 2em;
+}
+.wrap>.communication{
+    flex: 1;
+}
+.wrap>.communication>p{
+    background: rgb(237, 237, 237);
+    padding: 10px 10px 10px 25px;
+    font-size: 1.5em;
+}
+.wrap>.communication>div>ul>li{
+    list-style: none;
+    height: 150px;
+    border-bottom: 2px solid rgb(237,237,237);
+    display: flex;
+    align-items: center;
+}
+.wrap>.communication>div>ul>li>.img{
+    width: 150px;
+}
+.wrap>.communication>div>ul>li>.img>img{
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+}
+.wrap>.communication>div>ul>li>.txt{
     position: relative;
     padding: 20px;
     flex: 1;
