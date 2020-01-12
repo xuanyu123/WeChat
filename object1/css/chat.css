@@ -3,6 +3,7 @@
     padding: 0;
 }
 body{
+    overflow: hidden;
     font-size: 20px;
 }
 .wrap{
@@ -28,6 +29,7 @@ body{
     margin: 40px 30px;
 }
 .wrap>.content{
+    overflow: auto;
     flex: 1;
 }
 .wrap>.content>ul>li{
