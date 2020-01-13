@@ -36,9 +36,13 @@ body{
 .wrap>.content>.word_box{
     position: fixed;
     right: 10px;
-    top: 500px;
+    top: 50%;
+    transform: translateY(-50%);
 }
-.wrap>.content>.word_box>a{
+.wrap>.content>.word_box>ul>li{
+    list-style: none;
+}
+.wrap>.content>.word_box>ul>li>a{
     display: block;
     color: black;
     font-size: 1.2em;
@@ -92,6 +96,10 @@ body{
     background: rgb(237, 237, 237);
     padding: 10px 10px 10px 25px;
     font-size: 1.5em;
+}
+.wrap>.content>.communication>p>a{
+    text-decoration: none;
+    color: black;
 }
 .wrap>.content>.communication>div>ul>li{
     list-style: none;

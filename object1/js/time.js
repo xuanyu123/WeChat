@@ -20,5 +20,5 @@ function startClock(){
     let seconds = displayClock(time.getSeconds());
     //显示时间
     show.innerHTML=hours+minutes+seconds;//在id为show的块区域显示
-    timer=setTimeout("startClock()",1000);//延时器
+    timer=setInterval("startClock()",1000);//延时器
 }
